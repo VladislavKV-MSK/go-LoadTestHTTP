@@ -74,9 +74,6 @@ We welcome contributions! Here's how to help:
 4. **Push** to the branch (`git push origin feature/your-idea`)  
 5. Open a **Pull Request**  
 
-Before submitting:  
-- Run tests: `go test ./...`  
-- Format code: `gofmt -s -w .`  
 
 ### 🇷🇺 Русский  
 Приветствуем доработки! Как помочь:  
@@ -86,10 +83,6 @@ Before submitting:
 3. Закоммитьте изменения (`git commit -am 'Добавил фичу'`)  
 4. **Запушьте** ветку (`git push origin feature/ваша-фича`)  
 5. Создайте **Pull Request**  
-
-Перед отправкой:  
-- Запустите тесты: `go test ./...`  
-- Отформатируйте код: `gofmt -s -w .`  
 
 ---
 
