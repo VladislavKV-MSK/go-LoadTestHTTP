@@ -1,6 +1,6 @@
 # Load Tester / Нагрузочный тестер
 <div align="center">
-  <img src="https://cdn-icons-png.freepik.com/512/10941/10941323.png?ga=GA1.1.1943782784.1755027723" alt="Load Testing" width="600">
+  <img src="https://cdn-icons-png.freepik.com/512/18047/18047039.png?ga=GA1.1.1943782784.1755027723" alt="Load Testing" width="600">
   <br>
   <em>Инструмент для тестирования производительности API</em>
 </div>
