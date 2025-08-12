@@ -1,0 +1,8 @@
+{
+  "template": {
+    "user_id": "RANDOM_INT(1000,9999)",
+    "product": "RANDOM_STRING(laptop,phone,tablet)",
+    "is_active": "RANDOM_BOOL",
+    "price": "RANDOM_FLOAT(10.5,99.9)"
+  }
+}
