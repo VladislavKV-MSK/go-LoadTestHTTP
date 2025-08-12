@@ -62,3 +62,40 @@ Edit `config.json`:
 | 5XX      | Server errors / Ошибки сервера |
 | Timeout  | Service overload / Перегрузка |
 
+
+## 🤝 Contributing / Как помочь проекту
+
+### 🇬🇧 English  
+We welcome contributions! Here's how to help:  
+
+1. **Fork** the repository  
+2. Create a **feature branch** (`git checkout -b feature/your-idea`)  
+3. Commit your changes (`git commit -am 'Add some feature'`)  
+4. **Push** to the branch (`git push origin feature/your-idea`)  
+5. Open a **Pull Request**  
+
+Before submitting:  
+- Run tests: `go test ./...`  
+- Format code: `gofmt -s -w .`  
+
+### 🇷🇺 Русский  
+Приветствуем доработки! Как помочь:  
+
+1. Сделайте **форк** репозитория  
+2. Создайте **ветку** (`git checkout -b feature/ваша-фича`)  
+3. Закоммитьте изменения (`git commit -am 'Добавил фичу'`)  
+4. **Запушьте** ветку (`git push origin feature/ваша-фича`)  
+5. Создайте **Pull Request**  
+
+Перед отправкой:  
+- Запустите тесты: `go test ./...`  
+- Отформатируйте код: `gofmt -s -w .`  
+
+---
+
+### 🐛 Found a bug? / Нашли баг?  
+Open an [Issue](https://github.com/VladislavKV-MSK/go-LoadTestHTTP/issues) with:  
+/ Создайте [Issue](https://github.com/VladislavKV-MSK/go-LoadTestHTTP/issues) с:  
+- Steps to reproduce / Шагами воспроизведения  
+- Expected vs actual behavior / Ожидаемым и текущим поведением  
+- Screenshots if applicable / Скриншотами (если есть)  
