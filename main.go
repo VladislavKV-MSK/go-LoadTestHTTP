@@ -11,8 +11,11 @@ import (
 
 func main() {
 
-	// Инициализация логирования
-	Init()
+	// Инициализация логгера
+	if err := InitLogger(); err != nil {
+		log.Fatal("Failed to initialize logger:", err)
+	}
+	defer logger.Sync()
 
 	// Инициализация контекста с возможностью прерывания
 	ctx, stop := signal.NotifyContext(context.Background(), syscall.SIGINT, syscall.SIGTERM)

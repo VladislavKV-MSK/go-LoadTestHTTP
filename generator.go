@@ -7,7 +7,6 @@ import (
 	"regexp"
 	"strconv"
 	"strings"
-	"time"
 )
 
 type Config struct {
@@ -27,8 +26,6 @@ func LoadConfig(path string) (*Config, error) {
 
 	return &config, nil
 }
-
-var randSrc = rand.NewSource(time.Now().UnixNano())
 
 func GeneratePayload(config *Config) ([]byte, error) {
 	processed := make(map[string]interface{})
