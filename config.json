@@ -1,8 +1,20 @@
 {
   "template": {
-    "user_id": "RANDOM_INT(1000,9999)",
-    "product": "RANDOM_STRING(laptop,phone,tablet)",
-    "is_active": "RANDOM_BOOL",
-    "price": "RANDOM_FLOAT(10.5,99.9)"
+
+    "field_1": "COUNTER_RANDOM_STRING(Ann,Den,Bob,Mike)",
+
+    "field_2": "RANDOM_COMBO((bread,watermelon, milk),(sweet,fresh,hot))",
+
+    "field_3": "RANDOM_FLOAT(50,5000)",
+
+    "field_4": "RANDOM_INT(1,10)",
+
+    "field_5": "RANDOM_DATE(2023-01-01,2024-12-31)",
+
+    "field_6": "RANDOM_BOOL",
+
+    "field_7": "your_data",
+
+    "field_8": "COUNTER_your_string"
   }
 }
