@@ -56,7 +56,6 @@ Edit `config.json`:
     "field_6": "RANDOM_BOOL",
     "field_7": "your_data",
     "field_8": "COUNTER_your_string"
-  }
 }
 ```
 
